@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/thetaScreener/src/main/java/OptionsTool" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/thetaScreener/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/thetaScreener/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

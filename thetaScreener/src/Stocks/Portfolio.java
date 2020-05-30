@@ -12,7 +12,7 @@ public class Portfolio extends ArrayList {
         this.holdings = new ArrayList<Stock>();
     }
 
-    public ArrayList getHoldings() {
+    public ArrayList<Stock> getHoldings() {
         return holdings;
     }
 

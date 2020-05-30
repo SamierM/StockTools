@@ -23,7 +23,7 @@ public class ZackCSVParser {
     private FileReader zackCSVFileReader;
     private BufferedReader lineReader;
 
-    public ZackCSVParser(String fileName) throws FileNotFoundException, IOException{
+    public ZackCSVParser(String fileName) throws IOException{
         this.fileName = fileName;
         try {
             createFileReaders();
@@ -31,7 +31,7 @@ public class ZackCSVParser {
             isValidFile = true;
             fullStockList = parseFullStockListToPortfolio();
         } catch (FileNotFoundException e) {
-            throw new FileNotFoundException("Failed to reader file:" + RESOURCE_PATH + fileName);
+            throw new FileNotFoundException("Failed to read file:" + RESOURCE_PATH + fileName);
         } catch (IOException e) {
             throw new IOException("IOException when constructing new ZackCSVParser: " + fileName);
         }
