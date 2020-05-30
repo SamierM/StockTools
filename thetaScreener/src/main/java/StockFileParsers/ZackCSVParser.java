@@ -1,4 +1,4 @@
-package StockCSVParsers;
+package StockFileParsers;
 
 import Stocks.ZacksStock;
 
